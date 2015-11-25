@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:inputType="numberPassword"
+        android:hint="@string/edittext_input"
+        android:textColorHint="@android:color/tab_indicator_text"
         />
 
 </RelativeLayout>
