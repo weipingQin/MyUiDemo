@@ -1,9 +1,14 @@
 package customui.example.com.myuidemo;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +16,34 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        init();
+    }
+
+    private void init() {
+        TextView btnShowToast = (TextView) findViewById(R.id.btn_showtoast);
+        btnShowToast.setText("显示");
+        btnShowToast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showToast(MainActivity.this,"asdhasdihasidhasid");
+            }
+        });
+    }
+
+    private void showToast(Context context,String textString){
+        View toastRoot = getLayoutInflater().inflate(R.layout.dialog,null);
+       // Color.parseColor("FFFFFF");
+       // toastRoot.setBackgroundColor(Color.parseColor("FFFFFF"));
+       /* TextView textView = (TextView)toastRoot.findViewById(R.id.tvTitleToast);
+        textView.setText("MyToast");*/
+        Toast toastStart = new Toast(this);
+        toastStart.setGravity(Gravity.CENTER, 0, 0);
+        toastStart.setDuration(Toast.LENGTH_LONG);
+        toastStart.setView(toastRoot);
+        toastStart.makeText(context, textString, Toast.LENGTH_LONG);
+        toastRoot.setMinimumWidth(400);
+        toastRoot.setMinimumHeight(200);
+        toastStart.show();
     }
 
     @Override

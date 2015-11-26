@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">MyUiDemo</string>
+
+ <string name="hello_world">Hello world!</string>
+ <string name="action_settings">Settings</string>
+ <string name="title_activity_test_number_edit">TestNumberEditActivity</string>
+ <string name="edittext_input">请输入相应的密码</string>
+ <string name="activity_main_showtext_btn">显示弹出框</string>
+ <string name="title_activity_login">LoginActivity</string>
+ <string name="title_activity_register">RegisterActivity</string>
+
+ <!--新版UI涉及到的相关的文字部分抽象-->
+<!--activity_login-->
+ <string name="words_login"                   >登录</string>
+ <string name="words_register"                >注册</string>
+ <string name="activity_login_version_info"   >版本信息</string>
+<!--activity_register-->
+ <string name="words_title"                   >手机注册</string>
+ <string name="words_phonenumber"             >手机号码</string>
+ <string name="words_login_password"          >登录密码</string>
+ <string name="words_email_register"          >邮箱注册</string>
+ <string name="words_grant_authorization_keyboardpassword">授权键盘密码</string>
+ <string name="words_verfix_code_info"        >短信验证码已发送,请填写验证码</string>
+ <!--activity_verfix_code-->
+ <string name="words_please_input_verfix_code">请填写验证码</string>
+ <string name="words_password_info"           >密码必须是6-20位数字、字母或符号</string>
+ <string name="words_sure"                    >确定</string>
+ <string name="words_cancel"                  >取消</string>
+ <string name="words_delete"                  >删除</string>
+ <string name="words_all_select"              >全选</string>
+ <string name="words_add"                     >添加</string>
+ <string name="words_account"                 >账号</string>
+ <string name="words_password"                >密码</string>
+ <string name="words_nickname"                >昵称</string>
+ <string name="words_foget_password"          >忘记密码?</string>
+ <string name="words_register_account"        >立即注册?</string>
+ <string name="words_other_login"             >其他方式登录</string>
+ <string name="words_improve_personal_info"   >完善资料</string>
+ <string name="words_reset_keyboard_password" >重置键盘密码</string>
+ <string name="words_direct"                  >跳过</string>
+ <string name="words_connect_account"         >关联账号</string>
+ <string name="words_sciener_account"         >科技侠账号:</string>
+ <string name="words_add_device"              >添加设备</string>
+ <string name="words_battery"                 >电量</string>
+ <string name="words_open_lock_records"       >开锁记录</string>
+ <string name="words_key_managerment"         >钥匙管理</string>
+ <string name="words_backup_key"              >备份钥匙</string>
+ <string name="words_activity_backupkey_title">钥匙备份</string>
+ <string name="words_key_manager"             >钥匙管理</string>
+ <string name="words_setup"                   >设置</string>
+ <string name="words_next_setp"               >下一步</string>
+ <string name="words_modify_name"             >修改名称</string>
+ <string name="words_modify_"                 >修改</string>
+ <string name="words_modify_ziliao"           >修改资料</string>
+ <string name="words_message"                 >消息</string>
+ <string name="words_clear"                   >清空</string>
+ <string name="words_openlock_success"        >开锁成功</string>
+ <string name="words_openlock_fail"           >开锁失败</string>
+ <string name="words_send_feedback"           >发送反馈</string>
+
+ <string name="words_bluetooth_lock"          >蓝牙门锁</string>
+ <string name="words_bluetooth_lockcar"       >蓝牙车位锁</string>
+ <string name="words_bluetooth_smartlink"     >蓝牙WIFI转换器</string>
+ <string name="words_lock_watchdog"           >门禁</string>
+ <string name="words_lock_name"               >锁名</string>
+ <string name="words_type_name"               >型号</string>
+ <string name="words_serial_number"           >序列号</string>
+ <string name="words_newkey"                  >新钥匙</string>
+ <string name="words_unuselss_password"       >失效密码</string>
+ <string name="words_unuselss_password_info"  >修改密码后第一次成功开锁密码会生效</string>
+ <string name="words_current_password"        >当前密码:</string>
+ <string name="words_wait_use_password"       >待生肖密码:</string>
+ <string name="words_modify_password"         >修改密码</string>
+
+ <string name="words_admin"                   >管理员</string>
+ <string name="words_normal_user"             >普通用户</string>
+ <string name="words_download"                >下载</string>
+ <string name="words_from_info"               >来自</string>
+ <string name="words_send_ekey"               >发送电子钥匙</string>
+ <string name="words_complete"                >完成</string>
+ <string name="words_unlesstime_ekey"         >永久钥匙</string>
+ <string name="words_limit_time_ekey"         >限时钥匙</string>
+ <string name="words_descripe"                >描述</string>
+ <string name="words_input_descripe"          >填写描述</string>
+ <string name="words_receiver"                >接收人</string>
+ <string name="words_start_time"              >开始</string>
+ <string name="words_end_time"                >结束</string>
+ <string name="words_select_time"             >选择时间</string>
+ <string name="words_password_record"         >密码记录</string>
+ <string name="words_password_admin"          >管理员密码</string>
+ <string name="words_useless_password"        >失效密码</string>
+ <string name="words_reset_password"          >重置密码</string>
+ <string name="words_backup_keyboard_password">备份键盘密码</string>
+ <string name="words_reset_ekey"              >重置电子钥匙</string>
+ <string name="words_user_managerment"        >用户管理</string>
+ <string name="words_personal_info"           >个人中心</string>
+ <string name="words_backup_ekey"             >备份电子钥匙</string>
+ <string name="words_device_update"           >固件升级</string>
+ <string name="words_gesture_password"        >手势密码</string>
+ <string name="words_mybackupkey"             >我的备份</string>
+ <string name="words_sleeping_time"           >休眠时间</string>
+ <string name="words_account_password"        >账号密码</string>
+ <string name="words_about_and_help"          >关于科技侠与帮助</string>
+ <string name="words_exit_login"              >退出登录</string>
+
+ <string name="words_lock_state_normal"       >正常</string>
+ <string name="words_lock_state_freez"        >冻结</string>
+ <string name="words_lock_state_unfreez"      >解除冻结</string>
+
+ <!--完善资料页面-->
+ <string name="activity_main_nickname_edit_hint">输入昵称1-6个字符</string>
+ <string name="activity_main_email_edit_hint"   >输入邮箱地址</string>
+ <string name="activity_main_phonenumber_edit_hint">手机号/邮箱</string>
+ <string name="activity_main_login_edit_hint"   >输入登录密码</string>
+
+ <!--activity_reset_password.xml-->
+ <string name="activity_reset_password_info"    >如需使用键盘密码功能,必须先进行重置键盘密码操作。您也可以在"密码管理"中随时进行操作。</string>
+ <string name="activity_reset_password_backupkey_info">如需立即备份,请点击备份按钮</string>
+ <string name="activity_backupkey_info"         >您可以将钥匙备份到服务端,方便您重装应用或在其他手机登录下载备份使用。</string>
+ <string name="activity_backupkey_info2"        >如需立即备份,请点击备份按钮</string>
+ <string name="activity_modify_lockname_info"   >您已经成功添加了锁(%s)请给这把锁取个名称吧!</string>
+
+ <!--activity_add_device-->
+ <string name="activity_add_device_loading"     >正在搜索设备请稍等</string>
+
+ <!--activity_message.xml-->
+ <string name="activity_message_today"          >今天</string>
+ <string name="activity_message_recent_week"    >近一周</string>
+ <string name="activity_message_more"           >更早</string>
+ <string name="activity_message_system_message" >系统消息</string>
+ <string name="activity_message_system_message_info">亲爱的管理员,您的账号在。。。异地登录</string>
+ <string name="activity_message_company_message">公司消息</string>
+ <string name="activity_message_company_message_info">亲爱的用户,恭喜您成为锁(公司大门)的管理员</string>
+ <string name="activity_message_hr_message"     >hr</string>
+ <string name="activity_message_hr_message_info">亲爱的用户管理员，hr给您发送了来来</string>
+
+ <!--password_manager.xml-->
+ <string name="activity_passwrod_manager_unuselesskey">失效密码:在锁面板上输入此密码会让之前所有的键盘密码失效!</string>
+
+ <!--setup.xml-->
+ <string name="words_name"                      >名称</string>
+ <string name="words_group"                     >分组</string>
+ <string name="words_connect_voice"             >连接提示音</string>
+ <string name="words_lockdoor_voice"            >开锁提示音</string>
+ <string name="words_auto_openlock"             >自动开锁</string>
+ <string name="words_evertime_control"          >实时监控</string>
+ <string name="words_opendoor_voice1"           >芝麻开门</string>
+ <string name="words_sicener_comming"           >科技侠来了</string>
+ <string name="words_weixin"                    >微信</string>
+ <string name="words_qq"                        >QQ</string>
+ <string name="words_duanxin"                   >短信</string>
+
+ <string name="words_sciener_version_info"      >科技侠版权所有</string>
+
+</resources>
