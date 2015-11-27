@@ -32,6 +32,10 @@
             android:name=".ResetPasswordActivity"
             android:label="@string/title_activity_reset_password" >
         </activity>
+        <activity
+            android:name=".LoadingActivity"
+            android:label="@string/title_activity_loading" >
+        </activity>
     </application>
 
 </manifest>
