@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     tools:context="customui.example.com.myuidemo.LoginActivity"
     android:background="@android:color/white"
+    android:padding="@dimen/layout_padding_42dp"
     android:orientation="vertical">
 
     <LinearLayout

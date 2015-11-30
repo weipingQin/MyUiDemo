@@ -12,6 +12,7 @@
     <dimen name="activity_login_10dp">10dp</dimen>
     <dimen name="activity_login_12dp">12dp</dimen>
     <dimen name="activity_login_15dp">15dp</dimen>
+    <dimen name="layout_padding_42dp">42dp</dimen>
 
 
 
