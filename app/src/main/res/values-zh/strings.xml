@@ -9,6 +9,7 @@
  <string name="activity_main_showtext_btn">显示弹出框</string>
  <string name="title_activity_login">LoginActivity</string>
  <string name="title_activity_register">RegisterActivity</string>
+ <string name="words_sciener"                 >科技侠</string>
 
  <!--新版UI涉及到的相关的文字部分抽象-->
 <!--activity_login-->
@@ -152,5 +153,6 @@
  <string name="words_duanxin"                   >短信</string>
 
  <string name="words_sciener_version_info"      >科技侠版权所有</string>
+ <string name="words_sicener_version"           >Ver 4.0 For Android</string>
 
 </resources>
