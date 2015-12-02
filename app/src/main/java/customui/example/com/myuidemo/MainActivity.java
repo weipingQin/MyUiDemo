@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+
     private void showToast(Context context,String textString){
         View toastRoot = getLayoutInflater().inflate(R.layout.dialog,null);
        // Color.parseColor("FFFFFF");

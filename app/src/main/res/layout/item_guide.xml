@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iguide_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/iguide_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/words_taste"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/activity_login_15dp"
+        android:layout_margin="@dimen/activity_login_15dp"
+        android:gravity="center"
+        android:background="@color/text_light_blue"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"/>
+
+</RelativeLayout>
+

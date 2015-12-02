@@ -29,4 +29,5 @@ dependencies {
     compile files('libs/b.jar')
     compile files('libs/test.jar')
     compile files('libs/weiping.jar')
+    compile files('libs/scienerlib.jar')
 }
