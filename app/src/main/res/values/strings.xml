@@ -6,11 +6,11 @@
     <string name="title_activity_test_number_edit">TestNumberEditActivity</string>
     <string name="edittext_input">请输入相应的密码</string>
     <string name="activity_main_showtext_btn">显示弹出框</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
     <string name="title_activity_reset_password">ResetPasswordActivity</string>
-    <string name="title_activity_loading">LoadingActivity</string>
-    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="title_activity_welcome">Welcome</string>
     <string name="words_sciener"                 >sciener</string>
 
     <string name="words_login"                   >login</string>

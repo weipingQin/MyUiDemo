@@ -7,8 +7,8 @@
  <string name="title_activity_test_number_edit">TestNumberEditActivity</string>
  <string name="edittext_input">请输入相应的密码</string>
  <string name="activity_main_showtext_btn">显示弹出框</string>
- <string name="title_activity_login">LoginActivity</string>
- <string name="title_activity_register">RegisterActivity</string>
+ <string name="title_activity_login">登录页</string>
+ <string name="title_activity_register">注册页</string>
  <string name="words_sciener"                 >科技侠</string>
 
  <!--新版UI涉及到的相关的文字部分抽象-->
