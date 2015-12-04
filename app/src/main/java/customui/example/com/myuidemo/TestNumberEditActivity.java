@@ -1,8 +1,8 @@
 package customui.example.com.myuidemo;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
@@ -18,7 +18,7 @@ import java.util.TimerTask;
  * 需要注意的是，在此之前必须让edittext获取焦点，不然也是无效的。
  *
  */
-public class TestNumberEditActivity extends AppCompatActivity {
+public class TestNumberEditActivity extends Activity {
 
     private EditText editText;
 
