@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="@string/words_sciener"
-            android:textSize="@dimen/textsize_16sp"
+            android:textSize="@dimen/tx_16sp"
             android:textColor="@android:color/holo_blue_light"
             android:layout_marginTop="@dimen/activity_login_10dp"
             />
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="@string/words_sicener_version"
-            android:textSize="@dimen/textsize_16sp"
+            android:textSize="@dimen/tx_16sp"
             android:textColor="@android:color/darker_gray"
             android:layout_marginTop="@dimen/activity_login_12dp"/>
 
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/words_login"
-            android:textSize="@dimen/textsize_22sp"
+            android:textSize="@dimen/tx_22sp"
             android:textColor="@android:color/holo_blue_light"
             android:gravity="center"
             android:layout_weight="1"/>
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/words_register"
-            android:textSize="@dimen/textsize_22sp"
+            android:textSize="@dimen/tx_22sp"
             android:textColor="@android:color/holo_blue_light"
             android:gravity="center"
             android:layout_weight="1"/>

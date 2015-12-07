@@ -35,7 +35,7 @@
  <string name="words_password"                >密码</string>
  <string name="words_nickname"                >昵称</string>
  <string name="words_foget_password"          >忘记密码?</string>
- <string name="words_register_account"        >立即注册?</string>
+ <string name="words_register_account"        >立即注册</string>
  <string name="words_other_login"             >其他方式登录</string>
  <string name="words_improve_personal_info"   >完善资料</string>
  <string name="words_reset_keyboard_password" >重置键盘密码</string>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="customui.example.com.myuidemo.LoginDetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/activity_login_80dp"
+            android:background="@mipmap/logo"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/activity_login_username_edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_padding_48dp"
+        android:layout_marginTop="@dimen/layout_padding_42dp"/>
+
+
+    <EditText
+        android:id="@+id/activity_login_password_edit"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_login_15dp"
+        android:layout_height="@dimen/layout_padding_48dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/activity_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/activity_login_15dp"
+            android:background="@color/text_light_blue"
+            android:text="@string/words_login"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/activity_login_15dp"
+            android:text="@string/words_foget_password"
+            android:gravity="center_vertical"
+            android:layout_below="@id/activity_login_login"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/text_grey"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/activity_login_15dp"
+            android:text="@string/words_register_account"
+            android:gravity="center_vertical"
+            android:layout_below="@id/activity_login_login"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_grey"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

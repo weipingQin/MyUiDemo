@@ -1,9 +1,12 @@
 package customui.example.com.myuidemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class LoginActivity extends Activity {
 
@@ -11,7 +14,31 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        init();
     }
+
+    private void init(){
+        TextView btnLogin = (TextView) findViewById(R.id.btn_login);
+        TextView btnRegister = (TextView)findViewById(R.id.btn_register);
+        btnLogin.setOnClickListener(onClickListener);
+        btnRegister.setOnClickListener(onClickListener);
+    }
+
+    private View.OnClickListener onClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()){
+                case R.id.btn_login:
+                    Intent intent = new Intent(LoginActivity.this,LoginDetailActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn_register:
+                    Intent intent2 = new Intent(LoginActivity.this,RegisterActivity.class);
+                    startActivity(intent2);
+                    break;
+            }
+        }
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

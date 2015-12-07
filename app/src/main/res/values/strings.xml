@@ -19,4 +19,9 @@
 
     <string name="words_sicener_version"           >Ver 4.0 For Android</string>
     <string name="words_taste"                     >StartExperience</string>
+    <string name="title_activity_login_detail">LoginDetailActivity</string>
+
+    <string name="words_foget_password"          >forget password?</string>
+    <string name="words_register_account"        >register right away</string>
+
 </resources>
