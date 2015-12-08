@@ -1,16 +1,33 @@
 package customui.example.com.myuidemo;
 
-import android.app.Activity;
+import android.app.ActionBar;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class RegisterActivity extends Activity {
+public class RegisterActivity extends AppCompatActivity {
+
+    private ActionBar mActionBar; //定义ActionBar
+
+    ///手机注册页面xml
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        init();
+    }
+
+    private void init(){
+        initActionBar();
+    }
+
+    /**
+     * 初始化ActionBar相关的东西
+     */
+    private void initActionBar(){
+
     }
 
     @Override

@@ -12,13 +12,21 @@
     <dimen name="activity_login_10dp">10dp</dimen>
     <dimen name="activity_login_12dp">12dp</dimen>
     <dimen name="activity_login_15dp">15dp</dimen>
+    <dimen name="activity_login_18dp">18dp</dimen>
+    <dimen name="activity_login_22dp">22dp</dimen>
     <dimen name="layout_padding_42dp">42dp</dimen>
     <dimen name="layout_padding_44dp">44dp</dimen>
     <dimen name="layout_padding_46dp">46dp</dimen>
     <dimen name="layout_padding_48dp">48dp</dimen>
 
-
+    <dimen name="tx_14sp">14sp</dimen>
+    <dimen name="tx_15sp">15sp</dimen>
     <dimen name="tx_16sp">16sp</dimen>
+    <dimen name="tx_17sp">17sp</dimen>
+    <dimen name="tx_18sp">18sp</dimen>
+    <dimen name="tx_19sp">19sp</dimen>
+    <dimen name="tx_20sp">20sp</dimen>
+    <dimen name="tx_21sp">21sp</dimen>
     <dimen name="tx_22sp">22sp</dimen>
     <!--  <dimen name="textsize_22sp">22sp</dimen>-->
 </resources>
