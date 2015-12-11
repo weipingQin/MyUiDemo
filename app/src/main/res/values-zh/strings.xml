@@ -121,6 +121,7 @@
  <string name="activity_backupkey_info"         >您可以将钥匙备份到服务端,方便您重装应用或在其他手机登录下载备份使用。</string>
  <string name="activity_backupkey_info2"        >如需立即备份,请点击备份按钮</string>
  <string name="activity_modify_lockname_info"   >您已经成功添加了锁(%s)请给这把锁取个名称吧!</string>
+ <string name="words_password_detail_info"      >密码必须是6-20位,数字、字母或符号</string>
 
  <!--activity_add_device-->
  <string name="activity_add_device_loading"     >正在搜索设备请稍等</string>

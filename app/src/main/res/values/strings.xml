@@ -25,5 +25,7 @@
 
     <string name="words_foget_password"          >forget password?</string>
     <string name="words_register_account"        >register right away</string>
+    <string name="words_password_detail_info"    >password must 6-20 number and words</string>
+    <string name="words_email_register">register for email</string>
 
 </resources>

@@ -75,4 +75,35 @@
         android:layout_height="0.6dp"
         android:background="@color/text_grey"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/words_password_detail_info"
+        android:layout_gravity="center"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/activity_login_15dp"/>
+
+    <TextView
+        android:id="@+id/activity_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/activity_login_15dp"
+        android:background="@drawable/shape"
+        android:text="@string/words_register"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/activity_login_login_email"
+        android:layout_width="wrap_content"
+        android:padding="@dimen/activity_login_10dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/layout_padding_41dp"
+        android:text="@string/words_email_register"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        />
+
 </LinearLayout>
